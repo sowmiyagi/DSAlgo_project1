@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DS-Algo">
+  <test name="Test"> 
+  <parameter name ="browser" value="chrome" />
+  
+  <listeners><listener class-name="com.dsalgo.testcases.Executionlistener"> </listener></listeners>
+  <classes>
+  
+ <class name="com.dsalgo.testcases.Getstartedtest"/>
+ <class name="com.dsalgo.testcases.Homepagetest"/>
+   <class name="com.dsalgo.testcases.TC_Logintest_datadriven"/>
+    <class name="com.dsalgo.testcases.Arraypagetest"/>
+     <class name="com.dsalgo.testcases.Treepagetest"/> 
+   
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
